@@ -1,8 +1,8 @@
-"""Run: python -m unittest thrivesight_core.nts.test_investigate"""
+"""Run: python -m unittest NTS_core.nts.test_investigate"""
 import unittest
 
-from thrivesight_core.nts import load_table
-from thrivesight_core.nts.investigate import STRUCTURE, WILL, check_question, parse_cues, will_tree
+from NTS_core.nts import load_table
+from NTS_core.nts.investigate import STRUCTURE, WILL, check_question, parse_cues, will_tree
 
 
 class InvestigateTest(unittest.TestCase):
