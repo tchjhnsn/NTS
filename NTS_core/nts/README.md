@@ -54,11 +54,11 @@ The first thing a person does is answer four questions, each skippable: name, da
 
 ## Test
 
-    python -m unittest thrivesight_core.nts.test_nts thrivesight_core.nts.test_investigate thrivesight_core.nts.test_person thrivesight_core.nts.test_onboarding
+    python -m unittest NTS_core.nts.test_nts NTS_core.nts.test_investigate NTS_core.nts.test_person NTS_core.nts.test_onboarding
 
 ## Run the reader on Ollama
 
     ollama pull qwen3.8
-    python -m thrivesight_core.nts.run_reader --ollama qwen3.8 > readings.json
+    python -m NTS_core.nts.run_reader --ollama qwen3.8 > readings.json
 
 On Ollama Cloud, set `OLLAMA_HOST=https://ollama.com` and `OLLAMA_API_KEY`, and use a model from `https://ollama.com/api/tags`.

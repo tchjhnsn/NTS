@@ -1,9 +1,9 @@
-"""Run: python -m unittest thrivesight_core.nts.test_person"""
+"""Run: python -m unittest NTS_core.nts.test_person"""
 import unittest
 
-from thrivesight_core.nts.journal import TELL_ME_MORE, Entry
-from thrivesight_core.nts.person import FromJournal, Person
-from thrivesight_core.nts.records import Act
+from NTS_core.nts.journal import TELL_ME_MORE, Entry
+from NTS_core.nts.person import FromJournal, Person
+from NTS_core.nts.records import Act
 
 
 class JournalTest(unittest.TestCase):

@@ -1,8 +1,8 @@
 import unittest
 from datetime import date
 
-from thrivesight_core.nts.onboarding import ORDER, AnswerError, Onboarding, hold_stances
-from thrivesight_core.nts.person import FromJournal, Person
+from NTS_core.nts.onboarding import ORDER, AnswerError, Onboarding, hold_stances
+from NTS_core.nts.person import FromJournal, Person
 
 TODAY = date(2026, 11, 9)
 AT = "2026-11-09"

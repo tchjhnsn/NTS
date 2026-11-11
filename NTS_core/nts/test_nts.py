@@ -1,10 +1,10 @@
-"""Tests for the element model. Run: python -m unittest thrivesight_core.nts.test_nts"""
+"""Tests for the element model. Run: python -m unittest NTS_core.nts.test_nts"""
 import unittest
 from math import comb
 
-from thrivesight_core.nts import RealityTags, ScopePath, load_table
-from thrivesight_core.nts.agreement import agreement, kappa
-from thrivesight_core.nts.reader import parse_answer, system_prompt
+from NTS_core.nts import RealityTags, ScopePath, load_table
+from NTS_core.nts.agreement import agreement, kappa
+from NTS_core.nts.reader import parse_answer, system_prompt
 
 
 class TableTest(unittest.TestCase):

@@ -1,7 +1,7 @@
 """Run the reader prompt over a file of entries and print proposals (and agreement, if labelled).
 
-  python -m thrivesight_core.nts.run_reader --model <model id> [entries.json]
-  python -m thrivesight_core.nts.run_reader --ollama qwen3.8 [entries.json]
+  python -m NTS_core.nts.run_reader --model <model id> [entries.json]
+  python -m NTS_core.nts.run_reader --ollama qwen3.8 [entries.json]
 
 --model uses the Anthropic API and needs ANTHROPIC_API_KEY. --ollama uses an Ollama
 server: OLLAMA_HOST (default http://localhost:11434), or https://ollama.com for
